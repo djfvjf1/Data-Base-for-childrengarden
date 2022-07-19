@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{411A2D2E-2FDB-41A9-B151-1BD645980939}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ChildrenDB</RootNamespace>
+    <AssemblyName>ChildrenDB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DetishkiDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetishkiDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ElderGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElderGroup.Designer.cs">
+      <DependentUpon>ElderGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayForm2.Designer.cs">
+      <DependentUpon>PayForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayForm3.Designer.cs">
+      <DependentUpon>PayForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayForm4.Designer.cs">
+      <DependentUpon>PayForm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayForm5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayForm5.Designer.cs">
+      <DependentUpon>PayForm5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreEng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreEng.Designer.cs">
+      <DependentUpon>PreEng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preparation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preparation.Designer.cs">
+      <DependentUpon>Preparation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preschoolers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preschoolers.Designer.cs">
+      <DependentUpon>Preschoolers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Surname2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surname2.Designer.cs">
+      <DependentUpon>Surname2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Surname3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surname3.Designer.cs">
+      <DependentUpon>Surname3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Surname4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surname4.Designer.cs">
+      <DependentUpon>Surname4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Surname5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surname5.Designer.cs">
+      <DependentUpon>Surname5.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ElderGroup.resx">
+      <DependentUpon>ElderGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayForm2.resx">
+      <DependentUpon>PayForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayForm3.resx">
+      <DependentUpon>PayForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayForm4.resx">
+      <DependentUpon>PayForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayForm5.resx">
+      <DependentUpon>PayForm5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreEng.resx">
+      <DependentUpon>PreEng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preparation.resx">
+      <DependentUpon>Preparation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preschoolers.resx">
+      <DependentUpon>Preschoolers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Surname2.resx">
+      <DependentUpon>Surname2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Surname3.resx">
+      <DependentUpon>Surname3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Surname4.resx">
+      <DependentUpon>Surname4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Surname5.resx">
+      <DependentUpon>Surname5.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DetishkiDataSet2.xsc">
+      <DependentUpon>DetishkiDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DetishkiDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DetishkiDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DetishkiDataSet2.xss">
+      <DependentUpon>DetishkiDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Detishki.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
